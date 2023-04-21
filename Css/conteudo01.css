@@ -1,0 +1,38 @@
+.conteudo01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2em;
+  margin-top: 5rem;
+}
+
+.conteudo01 ::before {
+  width: 2rem;
+  height: 2rem;
+  border: #000;
+  background-color: #000;
+  position: fixed;
+  top: 50px;
+}
+
+.conteudo01 img {
+  max-width: 20rem;
+  justify-self: center;
+}
+
+.informação01 {
+  align-self: center;
+  padding-right: 2em;
+}
+
+.titulo {
+  font-size: 4.5rem;
+  text-align: left;
+  margin: 0px;
+}
+
+.paragrafo01 {
+  font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+}

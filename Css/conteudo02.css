@@ -1,0 +1,106 @@
+.conteudo02 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 5em;
+  padding: 3em;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.subtitulo01 {
+  color: #e0e0e0;
+  font-size: 7rem;
+  word-break: break-all;
+  align-self: center;
+  padding: 2rem;
+}
+
+.paragrafo02 {
+  font-size: 2rem;
+  color: #525252;
+  padding-right: 4rem;
+  text-align: left;
+}
+
+.projetos {
+  padding: 0px;
+}
+
+.projetos li {
+  gap: 1rem;
+}
+
+.ano {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.bikcraft {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.lista_cargo01 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0px;
+}
+
+.lista_cargo01 li {
+  display: block;
+  padding: 0.4rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.surfbot {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.lista_cargo02 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0px;
+}
+
+.lista_cargo02 li {
+  display: block;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.brafe {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.lista_cargo03 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0px;
+}
+
+.lista_cargo03 li {
+  display: block;
+  background-color: white;
+  padding: 0.4rem;
+}
