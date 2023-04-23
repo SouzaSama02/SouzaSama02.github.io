@@ -13,6 +13,7 @@
   word-break: break-all;
   align-self: center;
   padding: 2rem;
+  text-transform: uppercase;
 }
 
 .paragrafo02 {
@@ -26,12 +27,22 @@
   padding: 0px;
 }
 
+.descricao_projeto h3::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f826, #67dd0a);
+}
+
 .projetos li {
   gap: 1rem;
 }
 
 .ano {
-  list-style: none;
+  list-style: none;image.png
   text-decoration: none;
   text-align: center;
   margin-right: 1rem;
@@ -103,4 +114,46 @@
   display: block;
   background-color: white;
   padding: 0.4rem;
+}
+
+@media (max-width: 800px) {
+ .conteudo02 {
+  grid-template-columns: 1fr;
+ }
+ .subtitulo01 {
+  padding: 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #414141;
+  font-size: 3rem;
+  text-transform: capitalize;
+  max-width: initial;
+ }
+ .paragrafo02 {
+  font-size: 1rem;
+ }
+ .descricao_projeto h3::before {
+  display: none;
+ }
+ .ano::before {
+  content: "Ano";
+ }
+ .projetos {
+  margin-top: 2rem;
+ }
+}
+
+@media (max-width: 400px) {
+  .bikcraft {
+    grid-template-columns: 1fr;
+  }
+  .surfbot {
+    grid-template-columns: 1fr;
+  }
+  .brafe {
+    grid-template-columns: 1fr;
+  }
+  .ano::before {
+    display: none;
+  }
 }

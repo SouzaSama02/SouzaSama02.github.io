@@ -5,12 +5,25 @@
   padding: 12rem 5rem 10rem 5rem;
   color: white;
   gap: 3rem;
+  position: relative;
+}
+
+.conteudo03::after {
+  content: "";
+  background: url(../img/detalhe.svg) no-repeat;
+  display: block;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
 }
 
 .subtitulo02 {
   color: #000;
   font-size: 10em;
   word-break: break-all;
+  text-transform: uppercase;
 }
 
 .paragrafo03 {
@@ -23,6 +36,7 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 0px;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .faculdades li {
@@ -37,6 +51,51 @@
   color: #a3a3a3;
 }
 
-.horas {
-  position: fixed;
+.cursos ul {
+  list-style: none;
+  margin: 0px;
+}
+
+.cursos li {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.cursos span {
+  color: #8f8f8f;
+}
+
+.cursos_intesivos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.curso::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../img/cursos.svg");
+  /* position: absolute; */
+}
+
+@media (max-width: 800px) {
+  .conteudo03 {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .subtitulo02 {
+    margin: 0px;
+    font-size: 3rem;
+    padding: 0px;
+  }
+  .paragrafo03 {
+    font-size: 1rem;
+  }
+  .faculdades {
+    margin-top: 2rem;
+  }
 }

@@ -5,16 +5,17 @@
   background-color: black;
   color: #a3a3a3;
   font-size: 1em;
+  gap: 30px;
 }
 
 .paragrafo_rodape {
   font-size: 1.5em;
   text-align: center;
+  line-height: 1.3rem;
 }
 
 .enderecos {
-  font-size: 2em;
-  gap: 50px;
+  font-size: 2.2em;
 }
 
 .enderecos a {
@@ -22,4 +23,15 @@
   text-decoration: none;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .enderecos {
+    font-size: 1.9rem;
+    line-height: 3rem;
+  }
 }
