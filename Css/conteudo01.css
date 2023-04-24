@@ -21,6 +21,7 @@
 .conteudo01 img {
   max-width: 20rem;
   justify-self: center;
+  height: auto;
 }
 
 .informação01 {
@@ -62,7 +63,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .conteudo01 {
     grid-template-columns: 1fr;
   }
